@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add bcryptjs
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add jsonwebtoken
 
 PATH: 
   /home/code/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin

@@ -10,4 +10,5 @@ npm install nodemon -D
 yarn add mongoose 
     orm para base de dados mongoDB
     
-yarn add bcryptjs
+yarn add jsonwebtoken
+    para autenticação jwt

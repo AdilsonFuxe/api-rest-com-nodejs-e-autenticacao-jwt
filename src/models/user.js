@@ -28,7 +28,7 @@ const userSchema = new mongoose.Schema({
 })
 
 userSchema.pre('save',async function (next){
-    const hash = await crypto.createHash('sha256').update(this.password).digest('hex')
+    const hash = crypto.createHash('sha256').update(this.password).digest('hex')
     this.password = hash;
     next();
 })
