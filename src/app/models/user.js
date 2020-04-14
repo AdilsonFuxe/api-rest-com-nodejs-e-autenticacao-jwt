@@ -1,4 +1,4 @@
-const mongoose = require('../database/index');
+const mongoose = require('../../database/index');
 const crypto = require('crypto');
 
 const userSchema = new mongoose.Schema({
@@ -15,6 +15,14 @@ const userSchema = new mongoose.Schema({
     password:{
         type: String,
         required: true,
+        select: false
+    },
+    passwordResetToken:{
+        type:String,
+        select: false
+    },
+    passwordResetExpires:{
+        type: Date,
         select: false
     },
     created_at:{
