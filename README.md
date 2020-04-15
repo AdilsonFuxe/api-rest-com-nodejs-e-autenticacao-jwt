@@ -1,4 +1,4 @@
-#Api Rest com autenticação JWT
+#Api Rest com Node.JS e autenticação JWT
 
 Rode npm install na pasta raiz para instalar todas as dependencias
 
